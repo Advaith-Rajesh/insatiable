@@ -84,6 +84,7 @@ class SearchBar extends React.Component {
               width="225"
               height="225"
               id="img-ravenous"
+              alt="img-ravenous"
               style={{ alignSelf: 'center' }}
               />
             <div className="SearchBar-sort-options">

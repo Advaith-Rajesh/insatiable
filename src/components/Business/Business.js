@@ -6,7 +6,7 @@ class Business extends React.Component {
     return (
       <div className="Business">
         <div className="image-container">
-         <a href={this.props.business.googleMapsUrl} target="_blank" rel="noopener"> <img src={this.props.business.imageSrc} alt='' /> </a>
+         <a href={this.props.business.googleMapsUrl} target="_blank" rel="noopener noreferrer"> <img src={this.props.business.imageSrc} alt='' /> </a>
          
         </div>
         <h2>{this.props.business.name}</h2>
