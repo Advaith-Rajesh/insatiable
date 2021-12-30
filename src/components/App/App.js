@@ -27,7 +27,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1 id="h1-ravenous">insatiable</h1>
-      <h3>Go to <a href="https://cors-anywhere.herokuapp.com/corsdemo" target="_blank">corsdemo</a> and click <code>request temporary access to the demo server</code> and you will be ready to roll!</h3>
+      <h3>Go to <a href="https://cors-anywhere.herokuapp.com/corsdemo" target="_blank" rel="noopener">corsdemo</a> and click <code>request temporary access to the demo server</code> and you will be ready to roll!</h3>
         
         <SearchBar searchYelp={this.searchYelp}/>
         <BusinessList businesses={this.state.businesses}/>
