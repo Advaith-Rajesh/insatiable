@@ -79,6 +79,11 @@
     .SearchBar {
       background-image: url('./background_search_mobile.jpg');
     }
+    @media screen and (max-width: 480px) {
+      img {
+           width: 400px;
+      }
+  }
   
     .SearchBar-sort-options ul {
       margin-left: 2rem;
